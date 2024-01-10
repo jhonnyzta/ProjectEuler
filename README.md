@@ -124,11 +124,12 @@ $$ S_5 \sum_{i=1}^{q} 5 \cdot i = 5 \sum_{i=1}^{q} i = 5 \frac{q \cdot (q+1)}{2}
 **Múltiplos de 3 y 5**
 Si se suman directamente los dos valores anteriores se cometería el error de sumar dos veces los números que son múltiplos de 3 y de 5, es decir los múltiplos de 15 (el mínimo común múltiplo de 3 y 5). Por lo que para obtener el resultado real se debe hacer lo siguiente:
 
-$$ S_T = S_3+S_5-S_15 $$
+$$ S_T = S_3+S_5-S_{15} $$
 
-Donde $S_15$ está definida como:
+Donde $S_{15}$ está definida como:
 
-$$ S_15 \sum_{i=1}^{r} 15 \cdot i = 15 \sum_{i=1}^{r} i = 15 \frac{r \cdot (r+1)}{2} $$
+$$ S_{15} \sum_{i=1}^{r} 15 \cdot i = 15 \sum_{i=1}^{r} i = 15 \frac{r \cdot (r+1)}{2} $$
+
 con $ r=\lfloor \frac{1000}{15} \rfloor $.
 
 Ahora, con el ánimo de generalizar la situación, es decir dar solución al problema dados dos enteros para sumar sus múltiplos con una cota superior el código en pyhon sería:
