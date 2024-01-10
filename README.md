@@ -27,7 +27,7 @@ El primer problema del Proyecto Euler plantea la siguiente situación:
 
 **Nota:** Primero se plantea un enfoque básico (fuerza bruta), después de este uno más adecuado para la situación.
 
-#### Enfoque básico:
+## Enfoque básico:
 
 Utilizando un ciclo for en Python se tiene:
 
@@ -107,25 +107,29 @@ En el que se observa un comportamiento similar, sin embargo evaluando en un rang
 De esta forma intento observar el comportamiento de las "métodos" de Python y así comprender un poco mejor.
 
 
-#### Enfoque serio
+## Enfoque serio
 
 Debido a la naturaleza del problema planteado, todas los planteamientos anteriores son inadecuados. Realmente es más sencillo desde un enfoque matemático, ya que se puede abordar de la siguiente manera:
 
 **Suma de múltiplos de 3**
-La suma de los múltiplos de 3 menores que 1000 tiene k términos, siendo $k=\lfloor \frac{1000}{3} \rfloor $, donde $ \lfloor \dotsb \rfloor$ es la función piso.
+La suma de los múltiplos de 3 menores que 1000 tiene k términos, siendo $k=\lfloor \frac{1000}{3} \rfloor $, donde $ \lfloor \dotsb \rfloor $ es la función piso.
+
 $$ S_3 = \sum_{i=1}^{k} 3 \cdot i = 3 \sum_{i=1}^{k} i = 3 \frac{k \cdot (k+1)}{2} $$
 
 **Suma de múltiplos de 5**
 La suma de los múltiplos de 5 menores que 1000 tiene q términos, siendo $q=\lfloor \frac{1000}{5} \rfloor-1$, se le resta 1 ya que 1000 es múltiplo de 5 y se pide la suma de los menores a 1000, por lo que no está incluido el 1000.
 
-$$ S_5 \sum_{i=1}^{q} 5 \cdot i = 5 \sum_{i=1}^{q} i = 3 \frac{q \cdot (q+1)}{2} $$
+$$ S_5 \sum_{i=1}^{q} 5 \cdot i = 5 \sum_{i=1}^{q} i = 5 \frac{q \cdot (q+1)}{2} $$
 
 **Múltiplos de 3 y 5**
 Si se suman directamente los dos valores anteriores se cometería el error de sumar dos veces los números que son múltiplos de 3 y de 5, es decir los múltiplos de 15 (el mínimo común múltiplo de 3 y 5). Por lo que para obtener el resultado real se debe hacer lo siguiente:
-$$ S_T = S_3+S_5-S_15$$
+
+$$ S_T = S_3+S_5-S_15 $$
+
 Donde $S_15$ está definida como:
+
 $$ S_15 \sum_{i=1}^{r} 15 \cdot i = 15 \sum_{i=1}^{r} i = 15 \frac{r \cdot (r+1)}{2} $$
-con $r=\lfloor \frac{1000}{15} \rfloor $.
+con $ r=\lfloor \frac{1000}{15} \rfloor $.
 
 Ahora, con el ánimo de generalizar la situación, es decir dar solución al problema dados dos enteros para sumar sus múltiplos con una cota superior el código en pyhon sería:
 
