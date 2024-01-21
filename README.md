@@ -24,9 +24,9 @@ Where we have $m= \lfloor \frac{M}{x} \rfloor$, $n= \lfloor \frac{M}{y} \rfloor$
 
 $$ S= x \cdot \frac{n(n+1)}{2}+y\frac{m(m+1)}{2}-gcd(x,y)\frac{r(r+1)}{2}$$
 
-<div style="background-color: #eedd5280;padding: 1em; border-radius: 6px; color: black">
-    <a style="color: black; font-weight: bold;">Remember:</a> x,y &#x2208; &#x2124; and the expresion &#x23A3; &#x2022; &#x23A6; it's the floor function.
-</div>
+
+> ⚠️ **Remeber** x,y &#x2208; &#x2124; and the expresion &#x23A3; &#x2022; &#x23A6; it's the floor function.
+
 
 ### Code
 
