@@ -1,5 +1,5 @@
 # Project Euler 3: Multiples of 3 or 5
-### by: Effe Zapata
+#### <p align="right">by: Effe Zapata</p>
 
 ### Statement
 
