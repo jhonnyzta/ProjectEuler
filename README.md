@@ -46,3 +46,10 @@ $$\begin{equation} S= x \cdot \frac{n(n+1)}{2}+y\frac{m(m+1)}{2}-gcd(x,y)\frac{r
 
 ![graph1](figuras0/graph1.png)
 ![graph2](figuras0/graph2.png)
+
+![graph1](figuras0/graph01.png)
+![graph2](figuras0/graph02.png)
+
+<p align="center">
+  <img src="/figura0/graph1.png" alt="Descripción de la imagen" width="400" height="300">
+</p>
