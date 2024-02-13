@@ -44,12 +44,13 @@ $$\begin{equation} S= x \cdot \frac{n(n+1)}{2}+y\frac{m(m+1)}{2}-gcd(x,y)\frac{r
 |![javac](https://github.com/jhonnyzta/ProjectEuler/assets/70600594/ea322cef-dde0-4acc-9747-e5ff1e8e0426)| Java+C |2522 | 🥹| 89.51%|
 |![pythonc](https://github.com/jhonnyzta/ProjectEuler/assets/70600594/15fdc43d-d714-4392-86f1-6cb66caacd0d)| Python+C | 4898 | 🥹| 72.97%|
 
+Ahora, para tener una mejor perspectiva del funcionamiento de cada script los evaluamos con la siguiente secuencia de pruebas.
+
+
+en la siguiente gráfica el eje x representa el número de la prueba realizada, y el eje y el tiempo acumulado, es decir para la tercer prueba muestra el tiempo que le tomó hacer las prueba 1, 2 y 3.
+
 ![graph1](figuras0/graph1.png)
+
+Para observar con mayor detalle eliminamos de la lista los resultados de Python y Java, obteniendo la siguiente gráfica.
+
 ![graph2](figuras0/graph2.png)
-
-![graph1](figuras0/graph01.png)
-![graph2](figuras0/graph02.png)
-
-<p align="center">
-  <img src="/figura0/graph1.png" alt="Descripción de la imagen" width="400" height="300">
-</p>
