@@ -32,11 +32,10 @@ $$\begin{equation} S= x \cdot \frac{n(n+1)}{2}+y\frac{m(m+1)}{2}-gcd(x,y)\frac{r
 
 || Language  |      Time      |  vs Better |
 |:-:|----------|:-------------:|------:|
-|![python](figuras0/python.png)
-| Python |  18121 | $1600 |
-|<img src="figuras0/julia.svg" alt="julia_logo" style="height: 20px; width:20px;"/>| Julia |   747   |   $12 |
-|<img src="figuras0/cpp.png" alt="MarineGEO circle logo" style="height: 20px; width:20px;"/>| C++ |1042 |    $1 |
-|<img src="figuras0/rust.png" alt="MarineGEO circle logo" style="height: 20px; width:20px;"/>| Rust | 2088 | 1|
-|<img src="figuras0/java.png" alt="MarineGEO circle logo" style="height: 20px; width:20px;"/>| Java | 24052 | 1|
-|<img src="figuras0/rust.png" alt="MarineGEO circle logo" style="height: 20px; width:20px;"/>| Python+C | 4898 | 1|
-|<img src="figuras0/rust.png" alt="MarineGEO circle logo" style="height: 20px; width:20px;"/>| Java+C |2522 | 1|
+|![Python](figuras0/python.png)| Python |  18121 | $1600 |
+|![Julia](figuras0/julia.png)| Julia |   747   |   $12 |
+|![C++](figuras0/cpp.png)| C++ |1042 |    $1 |
+|![Rust](figuras0/rust.png)| Rust | 2088 | 1|
+|![Java](figuras0/java.png)| Java | 24052 | 1|
+|![PythonC](figuras0/pythonc.png)| Python+C | 4898 | 1|
+|![JavaC](figuras0/javac.png)| Java+C |2522 | 1|
