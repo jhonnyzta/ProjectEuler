@@ -32,8 +32,10 @@ $$\begin{equation} S= x \cdot \frac{n(n+1)}{2}+y\frac{m(m+1)}{2}-gcd(x,y)\frac{r
 
 || Language  |      Time      |  vs Better |
 |:-:|----------|:-------------:|------:|
-|![Python](figuras0/python.png)| Python |  18121 | $1600 |
-|![Julia](figuras0/julia.png)| Julia |   747   |   $12 |
+|![python](https://github.com/jhonnyzta/ProjectEuler/assets/70600594/ba32a2c1-8535-4d50-85ac-8e7e96a3a6aa)
+| Python |  18121 | $1600 |
+|![julia](https://github.com/jhonnyzta/ProjectEuler/assets/70600594/64449037-acae-4f72-a49a-d4b587b1b638)
+| Julia |   747   |   $12 |
 |![C++](figuras0/cpp.png)| C++ |1042 |    $1 |
 |![Rust](figuras0/rust.png)| Rust | 2088 | 1|
 |![Java](figuras0/java.png)| Java | 24052 | 1|
