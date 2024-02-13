@@ -54,3 +54,9 @@ en la siguiente gráfica el eje x representa el número de la prueba realizada, 
 Para observar con mayor detalle eliminamos de la lista los resultados de Python y Java, obteniendo la siguiente gráfica.
 
 ![graph2](figuras0/graph2.png)
+
+
+
+<p align="center">
+  <img src="https://github.com/jhonnyzta/ProjectEuler/blob/main/figuras0/graph1.png" alt="Descripción de la imagen" width="400" height="300">
+</p>
