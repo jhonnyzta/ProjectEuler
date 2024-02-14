@@ -33,7 +33,7 @@ $$\begin{equation} S= x \cdot \frac{n(n+1)}{2}+y\frac{m(m+1)}{2}-gcd(x,y)\frac{r
 
 |  |Languaje | Time | Note |
 |:----:|:--- | :---: | :---:|
-|![julia](https://github.com/jhonnyzta/ProjectEuler/assets/70600594/64449037-acae-4f72-a49a-d4b587b1b638)| Julia | **747** |<h3 style="margin-top:0!important">&#129395;</h3>|
+|![julia](https://github.com/jhonnyzta/ProjectEuler/assets/70600594/64449037-acae-4f72-a49a-d4b587b1b638)| Julia | **747** |&#129395;|
 |![cpp](https://github.com/jhonnyzta/ProjectEuler/assets/70600594/168fd9cb-5554-441b-9d17-71642b3ac956)| C++ |1042 | &#129325; |
 |![go](https://github.com/jhonnyzta/ProjectEuler/assets/70600594/8e4f4251-2d53-4c3b-bdab-2665577f1cf4)| Go |1042 | &#129299; |
 |![rust](https://github.com/jhonnyzta/ProjectEuler/assets/70600594/38212ef8-b357-4ded-b852-dd5530a2b3d3)| Rust | 2088 |&#128526;|
@@ -42,8 +42,6 @@ $$\begin{equation} S= x \cdot \frac{n(n+1)}{2}+y\frac{m(m+1)}{2}-gcd(x,y)\frac{r
 </div>
 
 <div align="center">
-
-
 
 |  |Languaje | Time | Note |
 |:----:|:--- | :---: | :---:|
@@ -56,12 +54,12 @@ $$\begin{equation} S= x \cdot \frac{n(n+1)}{2}+y\frac{m(m+1)}{2}-gcd(x,y)\frac{r
 Ahora, para tener una mejor perspectiva del funcionamiento de cada script los evaluamos con la siguiente secuencia de pruebas.
 
 <div align="center">
-  
-  |Variable | Test 1 | Test 2 | Test 3 | Test4 |
-  |:--|:--:|:--:|:--:|:--:|
-  |Up_bound | 1000 | 2000 | 5000 | 9000 |
-  |Multiple1| 3 | 3 | 5 |7 |
-  |Multiple2 | 5 | 6 |7| 19 |
+
+|Variable | Test1 |Test2 |Test3 |Test4 |Test5 |Test6 |Test7 |Test8 |
+|:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|Up_bound| 1000 | 2000 | 5000 | 9000 | 1000 | 2000 | 5000 | 9000 | 
+|Multiple1| 3 | 3 | 5 | 7 | 3 | 3 | 5 | 7 | 
+|Multiple2| 5 | 6 | 7 | 19 | 5 | 6 | 7 | 19 | 
   
 </div>
 
@@ -76,6 +74,3 @@ Para observar con mayor detalle eliminamos de la lista los resultados de Python 
 <p align="center">
   <img src="https://github.com/jhonnyzta/ProjectEuler/blob/main/figuras0/graph2.png" alt="Descripción de la imagen" width="400" height="300">
 </p>
-
-
-
