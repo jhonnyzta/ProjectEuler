@@ -54,14 +54,13 @@ where $m= \lfloor \frac{M-1}{x} \rfloor$, then we have:
 
 $$ x \cdot (1+2+3+ \cdots+m) = x\cdot \sum_{i=1}^{m} {i} = x \left(\frac{m(m+1)}{2}\right)$$
 
-But we need to add all the numbers that are multiples of two integers x,y less than M, we cannot add directly $ x \cdot \sum {i} $ and $y \cdot \sum_{j=1}^{n}{j}$ because there can be numbers that are both multiples of $x$ and $y$, that is, the multiples of $z=gcd(x,y)$ are being added twice. So it is necessary to subtract the multiples of z less than M. Let S be the sum of the multiples of $x$ and $y$ that are less than M, then:
+But we need to add all the numbers that are multiples of two integers x,y less than M, we cannot add directly $x \cdot \sum {i}$ and $y \cdot \sum {j}$ because there can be numbers that are both multiples of $x$ and $y$, that is, the multiples of $z=gcd(x,y)$ are being added twice. So it is necessary to subtract the multiples of z less than M. Let S be the sum of the multiples of $x$ and $y$ that are less than M, then:
 
 $$ S = x \cdot \sum_{i=1}^{m}{i}+y \cdot \sum_{j=1}^{n}{j}-z\sum_{k=i}^{r}{k}$$
 
 Where we have $m= \lfloor \frac{M-1}{x} \rfloor$, $n= \lfloor \frac{M-1}{y} \rfloor$ and $r= \lfloor \frac{M-1}{z} \rfloor$, therefore:
 
 $$\begin{equation} S= x \cdot \frac{n(n+1)}{2}+y\frac{m(m+1)}{2}-z\frac{r(r+1)}{2} \end{equation}$$
-
 
 
 #### Code
@@ -160,12 +159,14 @@ On the other hand, there is also the report obtained for the Java and Python lan
 In the following graph, the x-axis represents the number of the test conducted, and the y-axis represents the cumulative time. This means that for the third test, it displays the total time taken to perform tests 1, 2, and 3.
 
 <p align="center">
-<img src="https://github.com/jhonnyzta/ProjectEuler/blob/main/figuras0/graph1.png" alt="Graphic 1" width="400" height="300">
+<img src="https://github.com/jhonnyzta/ProjectEuler/assets/70600594/8a5a7419-cf16-49e0-a9e8-406c12492530" alt="Graphic 1" width="400" height="300">
 </p>
 
 To observe in greater detail, we have removed the results of Python and Java from the list, resulting in the following graph.
 
+
 <p align="center">
-<img src="https://github.com/jhonnyzta/ProjectEuler/blob/main/figuras0/graph2.png" alt="Graphic 2" width="400" height="300">
+    
+<img src="https://github.com/jhonnyzta/ProjectEuler/assets/70600594/ceff4234-ba31-4be5-b65d-c19132037d90" alt="Graphic 2" width="400" height="300">
 </p>
 
