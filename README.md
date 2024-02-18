@@ -44,7 +44,7 @@ The results obtained in the different programming languages ​​are reported b
 
 ### Mathematical method
 
-> ⚠️ **Remember** $x,y \in \mathbb{Z}^{+} $ and the expresion &#x23A3; &#x2022; &#x23A6; it's the floor function.
+> ⚠️ **Remember** x,y &#x2208; &#8484;&#x207A; and the expresion &#x23A3; &#x2022; &#x23A6; it's the floor function.
 
 If we need to add all the numbers that are multiples of an integer x less than M, then we have the following:
 
@@ -114,7 +114,8 @@ Once the previous method was applied in the different programming languages, the
 </div>
 
 > ⚠️ **Remember** To measure optimization, the following equation is used:
-> $$ optimization = \frac{\left( timeBruteForce - timeMathematical \right)}{timeBruteForce} \times 100 \% $$
+
+$$ optimization = \frac{\left( timeBruteForce - timeMathematical \right)}{timeBruteForce} \times 100 \% $$
 
 ### Extra tests
 
@@ -159,12 +160,12 @@ On the other hand, there is also the report obtained for the Java and Python lan
 In the following graph, the x-axis represents the number of the test conducted, and the y-axis represents the cumulative time. This means that for the third test, it displays the total time taken to perform tests 1, 2, and 3.
 
 <p align="center">
-<img src="images/graph1.png" alt="Graphic 1" width="400" height="300">
+<img src="https://github.com/jhonnyzta/ProjectEuler/blob/main/figuras0/graph1.png" alt="Graphic 1" width="400" height="300">
 </p>
 
 To observe in greater detail, we have removed the results of Python and Java from the list, resulting in the following graph.
 
 <p align="center">
-<img src="images/graph2.png" alt="Graphic 2" width="400" height="300">
+<img src="https://github.com/jhonnyzta/ProjectEuler/blob/main/figuras0/graph2.png" alt="Graphic 2" width="400" height="300">
 </p>
 
